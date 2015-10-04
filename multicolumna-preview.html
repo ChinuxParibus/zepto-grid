@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<style>h1{display: inline-block;}</style>
+	<title>Este es un documento de prueba para multicolumna</title>
+</head>
+<body>
+	<h1>Dos Columnas</h1>
+	<div class="zg-row">
+		<div class="zg-col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi reprehenderit beatae sed, est, quibusdam dolore quo nulla, hic obcaecati doloribus iusto nobis provident amet corporis! Excepturi voluptate beatae, iusto facere!</div>
+		<div class="zg-col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sequi aut illum tempore magnam similique tempora perferendis fugit, nam quibusdam, explicabo eligendi nostrum repudiandae quam quas id velit laudantium animi!</div>
+	</div>
+	<h1>Tres Columnas</h1>
+	<div class="zg-row">
+		<div class="zg-col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit, rerum autem doloremque optio labore quae quos iusto est nulla!</div>
+		<div class="zg-col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor libero incidunt tempora laboriosam iure doloremque maiores tempore, odio nobis ipsum.</div>
+		<div class="zg-col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem blanditiis illum assumenda suscipit quaerat dolores, cumque libero similique asperiores id.</div>
+	</div>
+	<h1>Cuatro Columnas</h1>
+	<div class="zg-row">
+		<div class="zg-col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, asperiores? Voluptatum blanditiis ipsa labore dicta dolores veniam molestias ad animi.</div>
+		<div class="zg-col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eligendi quisquam, quaerat atque saepe vitae, ipsa accusamus doloribus! Quae, esse!</div>
+		<div class="zg-col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi corporis suscipit voluptatem voluptas cupiditate, dolorem architecto repellat dolore aut quae!</div>
+		<div class="zg-col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut numquam fugit ratione optio dignissimos necessitatibus, laborum voluptate alias odio quod?</div>
+	</div>
+	<h1>Seis Columnas</h1>
+	<div class="zg-row">
+		<div class="zg-col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic sint libero ducimus beatae, quibusdam, distinctio officia qui deserunt pariatur ea.</div>
+		<div class="zg-col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque tempore architecto eligendi ut pariatur magnam hic animi autem, consequuntur commodi.</div>
+		<div class="zg-col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ea iusto doloribus nisi impedit aperiam ipsum minus nam sequi. Perspiciatis?</div>
+		<div class="zg-col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum odit tempore recusandae maxime natus error in, nam eveniet voluptatum saepe.</div>
+		<div class="zg-col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint accusantium exercitationem, provident modi laboriosam! Accusamus doloribus eligendi nemo, hic. Necessitatibus.</div>
+		<div class="zg-col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis autem suscipit sequi ut aperiam optio nostrum libero sed porro culpa!</div>
+	</div>
+	<h1>Doce Columnas</h1>
+	<div class="zg-row">
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, deserunt.</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ullam.</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, in!</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, adipisci.</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, fuga.</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, voluptatem.</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, incidunt.</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, voluptas.</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, similique.</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, pariatur?</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, veritatis.</div>
+		<div class="zg-col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, esse.</div>
+	</div>
+	<h1>Libre distribución (menor o igual a 12 columnas)</h1>
+	<div class="zg-row">
+		<div class="zg-col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus beatae voluptates eligendi dolores. Obcaecati labore architecto explicabo reiciendis quibusdam ullam sapiente autem aliquam ratione nulla eius, fuga omnis est dignissimos.</div>
+		<div class="zg-col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ad quos beatae quibusdam placeat consequatur. Fugiat, ea. Omnis iure sit nemo aliquid a enim necessitatibus, ipsum laborum quam cumque soluta porro dicta possimus tempora rem architecto dolor veniam nesciunt amet alias laudantium dolore molestiae. Reprehenderit ipsam magni ipsa natus iure?</div>
+		<div class="zg-col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit atque vel hic excepturi officiis quibusdam. Amet veniam blanditiis aspernatur, id repellendus optio ex culpa. Ad magnam natus aspernatur, consectetur nam?</div>
+	</div>
+	<script src="zepto.js"></script>
+	<script src="event.js"></script>
+	<script src="zepto-grid.js"></script>
+	<script>
+		$(function(){
+			$('.zg-row').asRow();
+			$('.zg-col-6').asWidthColumn(6);
+			console.log($(this).getConfig());
+			$('.zg-col-4').asWidthColumn(4);
+			console.log($(this).getConfig());
+			$('.zg-col-3').asWidthColumn(3);
+			console.log($(this).getConfig());
+			$('.zg-col-2').asWidthColumn(2);
+			console.log($(this).getConfig());
+			$('.zg-col-1').asWidthColumn(1);
+			console.log($(this).getConfig());
+		});
+	</script>
+</body>
+</html>
